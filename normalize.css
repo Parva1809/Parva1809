@@ -1,0 +1,83 @@
+
+.body-info
+{
+    background-color: yellow;
+}
+.footer
+{
+    border-width: 1px;
+    border-style: dotted solid double dashed;
+    border-color:black;
+    border-radius: 9px;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    background-color: green;
+}
+.footer a
+{
+    color: black;
+
+}
+.honesty 
+{
+    background-color: yellow;
+}
+nav ul
+{
+    list-style-type:circle;
+
+}
+main
+{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+#info
+{
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#declare
+{
+    text-align: center;
+    font-family:cursive;
+}
+
+#identity
+{
+    font-weight: bold;
+    color:red;
+}
+#errors
+{
+    margin: 3%;
+    color: red;
+    margin:15%;
+
+}
+.button
+{
+    width:15%;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+    font-family:'Lucida Sans';
+    font-weight: bold;
+}
+form
+{
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+}
+form p input
+{
+    width:100%;
+    border-style: solid;
+    border-color: blue;
+}

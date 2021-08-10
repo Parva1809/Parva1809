@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patel Parva Jitendrakumar</title>
+        <meta charset="UTF-8">
+        <script src="info.js"></script>
+        <link rel="stylesheet" href="normalize.css">
+    </head>
+    <body class="body-info">
+        <header class="footer">
+            <h1>
+                <a href="honesty.html">FILL INFORMATION</a> 
+            </h1>
+        </header>
+        <main id="info">
+           <nav>
+            <h2>Navigation</h2>
+               <ul>
+                   <li><a href="info.html">Info</a></li>
+                   <li><a href="honesty.html" target ="blank">Honesty</a></li>
+                   <li><a href="reflection.html" target ="blank">Reflection</a></li>
+               </ul>
+           </nav>
+           <section>
+               <h2>Enter Data</h2>
+            <form action="https://httpbin.org/post" method="post" name="Enter Data">
+                <label for="firstname"><span>First Name:</span></label>
+                <input type="text" name="firstname" id="firstname" pattern="[A-Z][a-zA-Z\s]*" required><br><br>
+          
+                <label for="lastname"><span>Last Name:</span></label>
+                <input type="text" name="lastname" id="lastname" pattern="[A-Z][a-zA-Z\s]*" required><br><br>
+            
+                <label for="password"><span>Password:</span></label>
+                <input type="password" name="password" id="password" required><br><br>
+            
+                <label for="confirm"><span>Confirm Password:</span></label>
+                <input type="password" name="password" id="confirm" required><br><br>
+            
+                <label for="username"><span>Username:</span></label>
+                <input type="text" name="username" id="username" required><br><br>
+                <span>Education Level:</span>
+                <input type="text" list="educationlevel" name="educationlevel"  required/><br>
+                    <datalist id="educationlevel">
+                        <option value="0">-select-</option>
+                        <option value="Technical Diploma">Technical Diploma</option>
+                        <option value="College Diploma">College Diploma</option>
+                        <option value="Bachelor's Degree">Bachelor's Degree</option>
+                        <option value="Master's Degree">Master's Degree</option>
+                        <option value="Others">Others</option>
+                    </datalist><br><br>
+               <span>Education Status:</span>
+                <input type="radio" name="education status" value="graduated">Graduated
+                <input type="radio" name="education status" value="currently enrolled">Currently Enrolled
+                <input type="radio" name="education status" value="did not graduate">Did not Graduate
+                <br><br>
+                <label for="email"><span>Email:</span></label>
+                <input type="email" name="email" id="email" required><br><br> 
+                <label for="age"><span>Age:</span></label>
+                <input type="number" name="age" id="age" required min="18" max="60" ><br><br>           
+                <input type="hidden" name="lastName" id="lastName" value="Patel"/>
+                <input type="hidden" name="studentId" id="studentId" value="116635202"/> 
+                <input type="submit" value="Submit" class="button">
+                <input type="reset" value="Reset" class="button">
+        </form>
+        </section>
+        <aside id="errors"></aside>
+        </main>
+        <footer class="footer">
+           <p>Email</p>
+           <a href="https://outlook.live.com/owa/" target="blank"><i class="fas fa-at"></i></a>
+        </footer> 
+    </body>
+    </html>
